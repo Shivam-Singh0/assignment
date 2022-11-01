@@ -41,7 +41,7 @@ function FilesScreen() {
                                 </Card>
                             </Col>
                             <Col md={6}>
-                                <Card style={{ height: '400px', width: '400px' }}>
+                                <Card style={{ height: '400px', width: '400px', overflow: 'hidden' }}>
                                     <Card.Body>
                                         <Card.Text>
                                             {x.text_data}

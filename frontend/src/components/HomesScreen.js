@@ -126,7 +126,7 @@ function HomesScreen() {
                     </Col>
                 </Row>
                 <div className='d-flex justify-content-center me-5 my-2'>
-                    <Button type='submit' variant='info' disabled={loading && disabled}>
+                    <Button type='submit' variant='info' disabled={loading}>
                         Upload
                     </Button>
                 </div>
